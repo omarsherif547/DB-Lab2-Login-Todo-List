@@ -234,11 +234,6 @@ def logout():
 
 
 # =====================================================
-# 7. DISPLAY AND ADD TO-DO TASKS
-# =====================================================
-
-
-# =====================================================
 # 7. DISPLAY AND ADD TO-DO TASKS WITH DUE DATE
 # =====================================================
 
@@ -269,7 +264,7 @@ def todos():
         elif len(title) > 200:
             errors.append("Title is too long")
 
-        # Validate due date (optional)
+        # Validate due date
         if input_due_date:
             try:
                 parsed_due_date = date.fromisoformat(input_due_date)
@@ -337,12 +332,6 @@ def todos():
         input_title=input_title,
         input_due_date=input_due_date
     )
-
-
-
-# =====================================================
-# 8. EDIT EXISTING TO-DO TASK
-# =====================================================
 
 
 # =====================================================
