@@ -4,7 +4,7 @@
 
 **University:** Alexandria National University  
 **Faculty:** Faculty of Engineering  
-**Course:** Introduction to Database Systems  
+**Course:** Database Systems  
 **Assignment:** Lab 2 — Login & To-Do Application
 
 **Student Name:** Omar Sherif Mahmoud  
